@@ -8,8 +8,36 @@
             <h1>Contact Me</h1>
         </header>
         <main>
-            <h2>Interested in My Work? Send me a note!</h2>
+            <h2>Interested in My Work? Send me a note below!</h2>
             <h2>Haven't seen my work? Click <a href="./portfolio_main.html">Here</a></h2>
+            <form>
+                <label for="fn">First Name</label>
+                <input type="text" name="fn" id="fn" required>
+                <br>
+                <br>
+                <label for="ln">Last Name</label>
+                <input type="text" name="ln" id="ln" required>
+                <br>
+                <br>
+                <label for="em">Email</label>
+                <input type="text" name="em" id="em" required>
+                <br>
+                <br>
+                <label for="response">Write To Me</label>
+                <br>
+                <textarea name="response" id="response" rows="3" cols="40"></textarea>
+                <br>
+                <br>
+                <span>Are you interested in hiring me?</span>
+                <br>
+                <br>
+                <input type="radio" name="work" id="yes" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="work" id="no" value="no">
+                <label for="no">No</label>
+                <input type="radio" name="work" id="maybe" value="maybe">
+                <label for="maybe">Maybe</label>
+            </form>
         </main>
     </body>
 </html>
