@@ -1,0 +1,65 @@
+section {
+    border: 6px solid black;
+}
+
+
+#colors li {
+    border: 3px solid;
+    display: inline-block;
+    margin: 0 125px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#but {
+    background-color: #FFD34E;
+}
+
+#nav {
+    color: white;
+    background-color: #001f3f;
+}
+
+#war{
+    background-color: #daa520;
+}
+
+#cre{
+    background-color: #fff8e1;
+}
+
+header {
+    text-align: center;
+}
+
+#bab, #geb, #babb{
+    font-weight: bold;
+}
+#bai, #gei, #baii{
+    font-style: italic;
+}
+
+#ba, #bali li{
+    font-family: "Book Antiqua";
+    font-size: 28px;
+}
+
+#ge, #geli li{
+    font-family: "Georgia";
+    font-size: 28px;
+}
+
+#bk, #bkli li{
+    font-family: "Baskerville Old Face";
+    font-size: 28px;
+}
+
+.style {
+    font-size: 28px;
+}
+
+.styles li{
+    font-size: 28px;
+}

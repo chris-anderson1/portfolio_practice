@@ -1,0 +1,50 @@
+
+* {
+    font-family: Gotham;
+}
+
+header {
+    color:#ffb600;
+    text-align: center;
+    height: 220px;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+
+h1 {
+    font-size: 56px;
+}
+
+html {
+    border: 12px solid #ffb600;
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: auto;
+    font-size: 30px;
+    border: 3px solid #ffb600;
+}
+body {
+    font-size: 24px;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+li:hover {
+    cursor: pointer;
+    border: transparent;
+}
+

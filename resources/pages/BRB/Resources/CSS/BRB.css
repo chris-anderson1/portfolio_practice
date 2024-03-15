@@ -1,0 +1,90 @@
+#name {
+    font-family: "Book Antiqua", "Georgia";
+    color: #FFD34E;
+    text-align: center;
+    font-size: 108px;
+    padding-top: 65px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-shadow:
+    3px 3px 2px #001F3F,
+    -3px 3px 2px #001F3F,
+    -3px -3px 0 #001F3F,
+    3px -3px 0 #001F3F;;
+}
+
+header {
+    background-image: url("../Pictures/mountain.jpg");
+    padding-bottom: 100px;
+}
+
+#tagline {
+    font-family: "Baskerville Old Face", serif;
+    text-align: center;
+    color: #001F3F;
+    font-size: 48px;
+    font-style: italic;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+
+html {
+    border: 6px solid #DAA520;
+    background-color: #001F3F;
+}
+
+nav {
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    font-family: "Baskerville Old Face", serif;
+    font-size: 26px;
+    background-color: #001F3F;
+    color: #FFD34E;
+    padding: 30px 30px;
+    margin: 0 125px;
+    width: 100px;
+    flex-flow: nowrap;
+}
+
+li {
+    text-align: center;
+}
+
+nav li:hover {
+    box-shadow: inset 0 0 0 3px #FFF8E1;
+    cursor: pointer;
+}
+
+
+nav a:visited {
+    color: #FFD34E;
+}
+
+video {
+    margin: 0px 0px;
+    padding-top: 0px;
+    position: relaitve;
+}
+
+#reviews {
+    font-family: "Book Antiqua", serif;
+    color: #DAA520;
+    font-size: 20px;
+    text-align: center;
+}
+
+#reviews h4 {
+    font-size: 48px;
+}
+
+#reviews h5 {
+    font-size: 36px;
+}
+
+#loc {
+    width: 100%;
+}

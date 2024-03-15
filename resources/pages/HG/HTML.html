@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML References</title>
+    <link href="resources/CSS/HTML.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>HTML References</h1>
+      <h3>This page is meant to serve as a reference for the basic HTML tags covered in Codecadey's cirriculum</h3>
+      <nav>
+          <ul> 
+              <li><a href="#str">HTML Structure</a></li>
+              <li><a href="#ele">HTML Elements</a></li>
+              <li><a href='#tab'>HTML Tables</a></li>
+              <li><a href='#sem'>HTML Semantics</a></li>
+          </ul>
+      </nav> 
+    </header>
+    <section>
+      <table>
+          <thead>
+            <th><h3 id="str">HTML Structure</h3></th>
+          </thead>
+          <tbody>
+            <tr>
+                <td><strong>Tag Appearance</strong></td>
+                <td><strong>Name</strong></td>
+                <td><strong>Description</strong></td>
+            </tr>
+            <tr>
+                <td>&lt;!DOCTYPE html&gt;*</td>
+                <td>Doc Type Declaration</td>
+                <td>Instruction informing browswer of doc type, must be the first line</td>
+            </tr>
+            <tr>
+                <td>&lt;html&gt;&lt;/html&gt;*</td>
+                <td>HTML Tags</td>
+                <td>Are the tag containers for all of the HTML code</td>
+            </tr>
+            <tr>
+                <td>&lt;head&gt;&lt;/head&gt;</td>
+                <td>Head Tags</td>
+                <td>Element that contains meta data for the page, placed between HTML and body tags</td>
+            </tr>
+            <tr>
+                <td>&lt;title&gt;&lt;/title&gt;</td>
+                <td>Title Tags</td>
+                <td>Always contained within the head tags. This title will not show up on the page, but on browsers and the tab</td>
+            </tr>
+            <tr>
+              <td>&lt;a&gt;&lt;/a&gt;</td>
+              <td>Anchor Tags</td>
+              <td>Defines a hyperlink to another page or another place on the current page. Requires href attribute specifying the destination of the link. Optional attribute "target" setting it equal to '_blank' will open a new tab.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <table>
+          <tbody>
+            <th><h3 id="ele">HTML Elements</h3></th>
+            <tr>
+              <td>&lt;body&gt;&lt;/body&gt;</td>
+              <td>Body Tags</td>
+              <td>Contains all of an HTML document's content; headings, tables, paragraphs, etc.</td>
+            </tr>
+            <tr>
+              <td>&lt;h1&gt;&lt;/h1&gt;</td>
+              <td>Headings Tags</td>
+              <td>titles or subtitles that you want to display on a webpage. H1 to H6. </td>
+            </tr>
+            <tr>
+              <td>&lt;div&gt;&lt;/div&gt;</td>
+              <td>Divison Tags</td>
+              <td>Defines a division or section in an HTML document.</td>
+            </tr>
+            <tr>
+              <td>&lt;p&gt;&lt;/p&gt;</td>
+              <td>Paragraph Tags</td>
+              <td>Defines a paragraph.</td>
+            </tr>
+            <tr>
+              <td>&lt;span&gt;&lt;/span&gt;</td>
+              <td>Span Tags</td>
+              <td>Used to target a small piece of HTML content.</td>
+            </tr>
+            <tr>
+              <td>&lt;em&gt;&lt;/em&gt;</td>
+              <td>em Tags</td>
+              <td>Renders HTML text in italics</td>
+            </tr>
+            <tr>
+              <td>&lt;strong&gt;&lt;/strong&gt;</td>
+              <td>Strong Tags</td>
+              <td>Renders HTML text bold.</td>
+            </tr>
+            <tr>
+              <td>&lt;br&gt;</td>
+              <td>Break Line</td>
+              <td>Create line break in HTML text. Self closing tag.</td>
+            </tr>
+            <tr>
+              <td>&lt;ul&gt;&lt;/ul&gt;</td>
+              <td>Unordered List</td>
+              <td>Lists out components in a bulleted list.</td>
+            </tr>
+            <tr>
+              <td>&lt;ol&gt;&lt;/ol&gt;</td>
+              <td>Ordered List</td>
+              <td>Lists out components in a numbered list.</td>
+            </tr>
+            <tr>
+              <td>&lt;li&gt;&lt;/li&gt;</td>
+              <td>Li Tags</td>
+              <td>Contains text found in a list.</td>
+            </tr>
+            <tr>
+              <td>&lt;img&gt;</td>
+              <td>Image Tag</td>
+              <td>Self closing tag to display image on page. Require src and URL/local path to image. Including the 'alt' attribute will provide text in place of the image if it cannot render.</td>
+            </tr>
+            <tr>
+              <td>&lt;video&gt;&lt;/video&gt;</td>
+              <td>Video Tags</td>
+              <td>Used for adding an in page video, requires src link/local path, height/width, 'controls' in order to allow play/pause. Additional text between tags will display if video can not be viewed. 'Video Not Supported'</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <table>
+          <tbody>
+            <th><h3 id="tab">HTML Tables</h3></th>
+            <tr>
+              <td>&lt;table&gt;&lt;/table&gt;</td>
+              <td>Table Tags</td>
+              <td>Contains tabular data.</td>
+            </tr>
+            <tr>
+              <td>&lt;tr&gt;&lt;/tr&gt;</td>
+              <td>Table Row Tags</td>
+              <td>Creates a new table row.</td>
+            </tr>
+            <tr>
+              <td>&lt;td&gt;&lt;/td&gt;</td>
+              <td>Table Data Tags</td>
+              <td>The tag to hold cell data.</td>
+            </tr>
+            <tr>
+              <td>&lt;th&gt;&lt;/th&gt;</td>
+              <td>Table Heading Tags</td>
+              <td>Contains a table headings, must still be placed in table row tags. Should include attribute scope assigned to either 'col' or 'row'. Could also contain attribute colspan or rowspan to denote the space it shoud take</td>
+            </tr>
+            <tr>
+              <td>&lt;tbody&gt;&lt;/tbody&gt;</td>
+              <td>Table Body Tags</td>
+              <td>Container for all primary table data.</td>
+            </tr>
+            <tr>
+              <td>&lt;thead&gt;&lt;/thead&gt;</td>
+              <td>Table Head Tags</td>
+              <td>Normally contains table headings/rows.</td>
+            </tr>
+            <tr>
+              <td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+              <td>Table Foot Tags</td>
+              <td>Contains tabular data normally towards the bottom of the table.</td>
+            </tr>
+          </tr>
+         </tbody>
+        </table>
+      </section>
+      <section>
+        <table>
+          <tbody>
+            <th><h3 id="sem">HTML Semantics</h3></th>
+            <tr>
+              <td>&lt;header&gt;&lt;/header&gt;</td>
+              <td>Header Tags</td>
+              <td>Used instead of div tags to more accurately describe the portion of HTML</td>
+            </tr>
+            <tr>
+              <td>&lt;nav&gt;&lt;/nav&gt;</td>
+              <td>Navigation Tags</td>
+              <td>Define a block of navigation links such as menus or table of contents</td>
+            </tr>
+            <tr>
+              <td>&lt;main&gt;&lt;/main&gt;</td>
+              <td>Main Tags</td>
+              <td>Used to encapsulate the dominant content within a webpage</td>
+            </tr>
+            <tr>
+              <td>&lt;footer&gt;&lt;/footer&gt;</td>
+              <td>Footer Tags</td>
+              <td>Typically at the bottom of the page and usually contains contact information, copyright info, etc</td>
+            </tr>
+            <tr>
+              <td>&lt;section&gt;&lt;/section&gt;</td>
+              <td>Section Tags</td>
+              <td>Defines elements in a document such as chapters, or areas with the same theme</td>
+            </tr>
+            <tr>
+              <td>&lt;article&gt;&lt;/article&gt;</td>
+              <td>Article Tags</td>
+              <td>Defines/holds content that makes sense on its own such as articles, blogs, and comments</td>
+            </tr>
+            <tr>
+              <td>&lt;aside&gt;&lt;/aside&gt;</td>
+              <td>Aside Tags</td>
+              <td>Used to mark additional information that can enhance another element but isnt required to understand the primary content like quotes, comments, and additional information</td>
+            </tr>
+            <tr>
+              <td>&lt;figure&gt;&lt;/figure&gt;</td>
+              <td>Figure Tags</td>
+              <td>Element used to encapsulate media such as image, video, etc.</td>
+            </tr>
+            <tr>
+              <td>&lt;figcaption&gt;&lt;/figcaption&gt;</td>
+              <td>Figure Caption Tags</td>
+              <td>Used to add a caption to a figure, placed within figure tags</td>
+            </tr>
+            <tr>
+              <td>&lt;audio&gt;&lt;/audio&gt;</td>
+              <td>Audio Tags</td>
+              <td>Used to embed audio content</td>
+            </tr>
+            <tr>
+              <td>&lt;source&gt;</td>
+              <td>Source Tag</td>
+              <td>Placed inside audio tags which references the file and type. Ex. source src='myaudio.mp3' type ='audio/mp3' </td>
+            </tr>
+            <tr>
+              <td>&lt;embed&gt;</td>
+              <td>Embed Tag</td>
+              <td>Can embed any media content, self closing tag. Still requires src reference within tag ex. Gif. This is 'outdated' and used less</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+  </body>
+  
+
+</html>

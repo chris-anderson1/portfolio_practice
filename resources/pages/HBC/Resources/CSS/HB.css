@@ -1,0 +1,294 @@
+/* The Entire Page */
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/* Nav Bar and Heading  */
+
+header {
+    background-color: #008000;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style-type: none;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+}
+
+header ul li {
+    font-size: 1.75rem;
+    color: #d2b48c;
+}
+
+header ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.heading {
+    padding: 3rem 0 5rem 0;
+    
+}
+
+.heading h1 {
+    font-size: 4.5rem;
+}
+
+.heading h4 {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+/* /* About Us? */
+
+main {
+    color: #7cb265;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+main .about {
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+    background-color: #64462d;
+    border: .625rem solid #d2b48c;
+    border-radius: 1.25rem;
+    width: 100%;
+}
+
+main .about h2 {
+    font-size: 2.75rem;
+}
+
+main .about p {
+    font-size: 1.75rem;
+}
+
+/* birds */
+
+.birds {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    width: 100%;
+}
+
+.title {
+    background-color: #008000;
+    color: white;
+    font-size: 2.75rem;
+    text-align: center;
+    padding: 2.5rem 0 1rem 0;
+}
+
+.birds img {
+    height: 30rem;
+    width: 30rem;
+    border: .625rem solid #d2b48c;
+    border-radius: 1.25rem;
+    margin: 0 0 1.5rem 0;
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .birds {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .bird img {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bird figcaption {
+        min-width: 100%;
+        
+    }
+
+    .meet {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 1rem 1rem 1rem;
+        height: auto;
+        justify-content: space-around;
+        flex-direction: column;
+}
+    .meet img {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.birds figcaption {
+    text-align: center;
+    font-size: 2.75rem;
+}
+
+.birds p {
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 3rem 2rem 2rem 3rem;
+
+}
+
+.a {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+
+.b {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+
+.c {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+}
+
+.d {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+}
+
+.e {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+}
+
+.f {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+}
+
+/* Where we Meet */
+
+.bottom {
+    border: .625rem solid #d2b48c;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.meeting {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.meeting h2 {
+    font-size: 2.75rem
+}
+
+.meeting p {
+    font-size: 1.75rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.meet {
+    background-color: #008000;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% ;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.meet img {
+    width: 50rem;
+    height: 25rem;
+    border: .625rem solid #d2b48c;
+    border-radius: 1.25rem;
+}
+
+.meet figcaption {
+    font-size: 1.75rem;
+    color: white;
+    padding: 1rem 0 3rem 0;
+}
+
+.g {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+
+.h {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+
+.i {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+}
+
+footer {
+    background-color: #64462d;
+    color: #7cb265;
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+}
+
+footer h2 {
+    font-size: 2.75rem;
+    padding-bottom: 1.5rem;
+}
+
+footer h4 {
+    font-size: 1.75rem;
+    padding: .5rem 0 .5rem 0;
+}

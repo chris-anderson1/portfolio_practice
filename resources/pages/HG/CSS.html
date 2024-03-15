@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS References</title>
+        <link href="./resources/CSS/CSS.css" rel='stylesheet'>
+    </head>
+    <header>
+        <h1>CSS References</h1>
+        <h3>This page is meant to serve as a reference for the basic CSS concepts and topics covered in Codecadey's cirriculum</h3>
+        <nav>
+            <ul> 
+                <li><a href="#sel">Selectors and Visuals</a></li>
+                <li><a href="#box">Box Model</a></li>
+                <li><a href='#dis'>Display and Positioning</a></li>
+                <li><a href='#col'>Color</a></li>
+                <li><a href='#typ'>Typography</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <body>
+        <section>
+            <table>
+                <thead>
+                    <th><h3 id="sel">Selectors and Visuals</h3></h></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Concept or Topic</strong></td>
+                        <td><strong>Description</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Selectors</td>
+                        <td>Choose what HTML element you'd like to alter by placing in front of brackets. Ex. h1 { color: black } Selecting * would select all elements.</td>
+                    </tr>
+                    <tr>
+                        <td>Selecting Class</td>
+                        <td>Would select alter all HTML element in the specified class. Ex. .thisismyclass { color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Selecting ID</td>
+                        <td>Would select the element with a specific ID. Ex. #thisismyid { color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Colors on Hover/Click</td>
+                        <td>I need to look at this</td>
+                    </tr>
+                    <tr>
+                        <td>Selecting by Attributes</td>
+                        <td>Would select and change any elements with those specified attributes, Ex. [href] { color: black }, any element with href attribute would be black.</td>
+                    </tr>
+                    <tr>
+                        <td>Chaining Selectors</td>
+                        <td>A way of specifying more particular elements. Ex. h1.special { color: black }, this selects h1 headings with the class special.</td>
+                    </tr>
+                    <tr>
+                        <td>Selectors</td>
+                        <td>Choose what HTML element you'd like to alter by placing in front of brackets. Ex. h1 { color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Descendants</td>
+                        <td>Would select all child elements of this class that are li elements. Ex. .main-list li { color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Multiple Selectors</td>
+                        <td>Would select multiple different elements. Ex. h1, .button, #cool { color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Font-Family</td>
+                        <td>To change the type face of the text on your webpage. Font must be installed or have a backup font. Multiple word fonts should be put in quotes.</td>
+                    </tr>
+                    <tr>
+                        <td>Font-Size</td>
+                        <td>To change the size of text on your webpage. Typically measured in pixels/px.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Weight</td>
+                        <td>Controls how bold or thin text appears. Ex. Font-weight:bold/normal</td>
+                    </tr>
+                    <tr>
+                        <td>Text Align</td>
+                        <td>Will align text to the parent. Ex. text-align:(left, center, right, justify - spaces out text to align with left and right side of the parent)</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Property styles an element's foreground color. Ex. h1 { color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Background Color</td>
+                        <td>Property styles an elements background color. Ex. h1 { background-color: black }</td>
+                    </tr>
+                    <tr>
+                        <td>Opacity</td>
+                        <td>Used to measure how transparent an element is. Measured from 0 - 1</td>
+                    </tr>
+                    <tr>
+                        <td>Background image</td>
+                        <td>Makes the background of an element an image. Must provide a url and path. Ex. background-image: url("www.example_image.com")</td>
+                    </tr>
+                    <tr>
+                        <td>!important</td>
+                        <td>Will override any style.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th><h3 id="box">Box Model</h3></h></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Concept or Topic</strong></td>
+                        <td><strong>Description</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Width/Height</td>
+                        <td>The width and height of the content area can be specified in pixels. Ex. Height: 70px Width: 240px</td>
+                    </tr>
+                    <tr>
+                        <td>Padding</td>
+                        <td>The amount of space between the content area and border. You can specify top, right, bottom, and left padding in that order in pixels. You can also specify shorthanded, 
+                            ex. Padding: 5px, 10px would result in padding 5 pixels top and bottom, and 10 on left and right</td>
+                    </tr>
+                    <tr>
+                        <td>Border</td>
+                        <td>The thickness and style of the border surrounder the content area and padding. Requires thickness (pixels or words), style/design of the border, and color. Ex. Border: 3px solid coral</td>
+                    </tr>
+                    <tr>
+                        <td>Border Radius</td>
+                        <td>Can change the shape of the border from a box, to a rounded box, to a circle. Ex. border-radius: 50% would result in a circle assuming the element is same height and width</td>
+                    </tr>
+                    <tr>
+                    <td>Margin</td>
+                    <td>The amount of space between the border and the outside edge of the element. Denoted in pixels. follows similar rules to padding with margin-top, bottom, left, and right. 
+                        See examples in padding to see shorthand way of writing. Auto is another thing that can be used in margin, and that would instruct the browser to adjust the left and right 
+                        margins until the element is centered within its containing element.</td>
+                    </tr>
+                    <tr>
+                        <td>Min/Max width</td>
+                        <td>Ensures a miniumum or maximum width.</td>
+                    </tr>
+                    <tr>
+                        <td>Min/Max height</td>
+                        <td>Ensures a miniumum or maximum height.</td>
+                    </tr>
+                    <tr>
+                        <td>Overflow</td>
+                        <td>Controls what happens to content that spills or overflows outside its box. Common values are hidden (any content that overflows is hidden), scroll (a scrollbar will be added so that it can be viewed), 
+                        visible (will be displayed outside hte box)..</td>
+                    </tr>
+                    <tr>
+                        <td>Visibility</td>
+                        <td>Allowing elements to be hidden. Commons values are hidden (hides an element), visible (displays element), collapse (collapses element).</td>
+                    </tr>
+                    <tr>
+                        <td>Box Sizing</td>
+                        <td>Controls the type of box model the browswer should use when interpreting a web page. The default value is content-box, could also be set to border-box.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th><h3 id="dis">Display and Positioning</h3></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Concept or Topic</strong></td>
+                        <td><strong>Description</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Position</td>
+                        <td>Can take one of five values, static (default), relative, absolute, fixed, sticky.</td>
+                    </tr>
+                    <tr>
+                        <td>Relative Position</td>
+                        <td>This value allows you to position an element relative to its default static position.</td>
+                    </tr>
+                    <tr>
+                        <td>Offset Properties</td>
+                        <td>Usually done in tandem with Relative in order to say what its relative to. These properties are top, bottom, left and right are denoted in pixels or %. Writing top: 50px would move the box down 50 pixels.</td>
+                    </tr>
+                    <tr>
+                        <td>Absolute Position</td>
+                        <td>When the position is set to absolute, all other elements on the page will ignore the element and act like it is not presnet on the page.</td>
+                    </tr>
+                    <tr>
+                        <td>Fixed Position</td>
+                        <td>Keeps an element at the same point on the page regardless of scrolling.</td>
+                    </tr>
+                    <tr>
+                        <td>Sticky Position</td>
+                        <td>Keeps an element in the document flow as the user scrolls but sticks to a specified position as the page is scrolled further.</td>
+                    </tr>
+                    <tr>
+                        <td>Z-index</td>
+                        <td>Controls how far back or how far forward an element should appear on the web page when element overlap.</td>
+                    </tr>
+                    <tr>
+                        <td>Display</td>
+                        <td>Value that dictates if it can share horitzontal space with other elements. Possible values include inline, block, and in-line block.</td>
+                    </tr>
+                    <tr>
+                        <td>Inline Display</td>
+                        <td>Will change the display of designated elements to inline, the browser will render them on the same line.</td>
+                    </tr>
+                    <tr>
+                        <td>Block Display</td>
+                        <td>This will fill the entire width of the page but their width can set as well.</td>
+                    </tr> 
+                    <tr>
+                        <td>Inline-Block Display</td>
+                        <td>Combination of inline and block. Blocks that can share the same line, height and width can be specified.</td>
+                    </tr>
+                    <tr>
+                        <td>Float</td>
+                        <td>Used to move an element as far left/right as possible. Values would be left or right.</td>
+                    </tr>
+                    <tr>
+                        <td>Clear</td>
+                        <td>Specifies how elements should behave when they bump into each other on the page. Values could include: left, right, both (neither side of the element will touch any other element), none (the element can touch either side).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th><h3 id = "col">Color</h3></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Concept or Topic</strong></td>
+                        <td><strong>Description</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Hexadecimal</td>
+                        <td>A way to denote a specific color, starts with # followed by three or six characters. Ex . #A52A2A Brown</td>
+                    </tr>
+                    <tr>
+                        <td>RGB</td>
+                        <td>A way to denote a specific color, has three values, each one can be a decimal value form 0-255.  EX. rgb(143, 82, 143)</td>
+                    </tr>
+                    <tr>
+                        <td>HSL or Hue/Saturation/Lightness</td>
+                        <td>Hue refers to an angle on the color wheel, saturation refers to the intensity or purity of the color. Lightness refers to how dark/light the colr is, 50% would be normal. Hue can be between 0-360, 
+                            second and third numbers are %. Ex, hsl:(120, 60%, 70%).</td>
+                    </tr>
+                    <tr>
+                        <td>Opacity/Alpha</td>
+                        <td>The amount of transparency in the color. The last number is a decimal between 0 and 1. 1 being opaque and 0 being transparent. Would be used by typing color: hsla(34, 100%, 50%, .1) 
+                            Could also be used in RGB, ex. color: rgba(234, 45, 98, .33).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th><h3 id="typ">Typography</h3></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fall Back Fonts</td>
+                        <td>Used when designating a font family, in case the primary font is not rendered approprately it will go to the next font. Serif = Traditional Sans Serif = modern</td>
+                    </tr>
+                    <tr>
+                        <td>Font-Weight</td>
+                        <td>Controls how bold or then text appears, could have values such as bold, normal, lighter, bolder.</td>
+                    </tr>
+                    <tr>
+                        <td>Font-Style</td>
+                        <td>By deafult is normal but is an option if wanting to have text apppear italicized.</td>
+                    </tr>
+                    <tr>
+                        <td>Text-Transformation</td>
+                        <td>Allows text to be all uppercase or lowercase.</td>
+                    </tr>
+                    <tr>
+                        <td>Letter Spacing</td>
+                        <td>Used to set horizantal spacing between individual characters, denoted in pixels or ems.</td>
+                    </tr>
+                    <tr>
+                        <td>Word Spacing</td>
+                        <td>Used to set horizantal spacing between individual words, denoted in pixels or ems.</td>
+                    </tr>
+                    <tr>
+                        <td>Line Height</td>
+                        <td>Sets how tall we want each line containing our text to be. Can use %, pixels, ems, numbers.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
