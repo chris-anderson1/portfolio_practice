@@ -7,3 +7,15 @@
     display: none;
     font-size: 48px;
 }
+
+#tech:hover{
+    cursor: pointer;
+}
+
+#cloz {
+    display: none;
+}
+
+#cloz:hover{
+    cursor: pointer;
+}
