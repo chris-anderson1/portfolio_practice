@@ -16,3 +16,21 @@ let close = function(){
 view.addEventListener('click', open)
 
 closed.addEventListener('click', close)
+
+
+
+let projects = document.getElementById('pro')
+let none = document.getElementById('no')
+
+let check = function() {
+    pros.style.display = 'block';
+}
+
+let stop = function() {
+    pros.style.display = 'none';
+}
+
+projects.addEventListener('click', check)
+none.addEventListener('click', stop)
+
+

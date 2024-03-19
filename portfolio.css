@@ -1,10 +1,139 @@
+/* everything */
+
 * {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: 32px;
+    color: #00796b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 0;
+    margin: 0 0;
 }
 
-#techs {
+/*heading and nav*/
+
+header {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+header h1 {
+    padding-top: 1rem;
+    font-size: 1.72rem;
+}
+
+#pros {
     display: none;
+}
+
+nav ul {
+    background-color: #333333;
+    list-style-type: none;
+}
+
+nav ul li:hover{
+    background-color: white;
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+nav ul li, a {
+    font-size: 2rem;
+    text-align: center;
+    padding: .75rem 0;
+    margin: 0 0;
+}
+
+nav ol {
+    list-style-type: none;
+}
+
+nav ol a {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#no {
+    font-size: 1.5rem;
+}
+
+
+/*about me*/
+
+.ab {
+    text-align: center;
+    background-color: #c0c0c0;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.ab h2{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.ab p {
+    font-size: 1rem;
+    line-height: 2 ;
+}
+
+
+
+/*primary content*/
+
+main {
+    background-color: #c0c0c0;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.title {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+
+.content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.page {
+    width: 90%;
+    height: 90%;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+/*footer*/
+
+footer{
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+footer h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.img {
+    height: 8rem;
+    width: 8rem;
+}
+
+/* Javascript Interactity */
+
+#techs {
     font-size: 48px;
 }
 

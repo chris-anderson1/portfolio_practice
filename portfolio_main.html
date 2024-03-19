@@ -6,62 +6,63 @@
     </head>
     <body>
         <header>
-            <h1>Hi I'm Chris. Welcome to my Portfolio</h1>
+            <div class="top">
+                <h1>I'm an aspiring Web Developer. <br><br>I'm elevating web experiences through code. <br><br> I'm Chris Anderson and this is my Portfolio. </h1>
+            </div>
             <nav>
-                <ul>
-                    <li><a href="./portfolio_contact.html">Contact Me</a></li>
-                    <li><a href="#HG">Projects</a></li>
-                        <ol>
+                <ul class ="list">
+                    <li class="stuff"><a href="./portfolio_contact.html">Contact Me</a></li>
+                    <li class = "stuff" id = 'pro'>Projects</li>
+                        <ol id = "pros">
                             <li><a href="#HG">My Help Guide</a></li>
                             <li><a href="#BRB">Blue Ridge Bakery</a></li>
                             <li><a href="HBC">Hendersonville Bird Club</a></li>
+                            <li id="no">Close</li>
                         </ol>
-                    <li><a href="#ski">Skills</a></li>
+                    <li class="stuff"><a href="#ski">Skills</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h2>About Me</h2>
-            <p>I started my programming journey in May 0f 2023, starting with basics learning standard programming concepts with Python. Since then I've expanded my knowledge by learning how to query 
-                databases using SQL, build basic websites using HTML/CSS, add interactivity using Javascript, and save/push my work using Git. Below are a few of the webpages I've built since joining Codecadey.
-            </p>
+            <div class = "ab">
+                <h2>About Me</h2>
+                <p>My programming journey began in May of 2023, starting with the basics learning standard programming concepts with Python. Since then I've expanded my knowledge learning how to query 
+                    databases using SQL, building static websites using HTML & CSS, adding interactivity using Javascript, and saving & pushing my work using Git. Below are a few of the webpages I've built since joining Codecademy.
+                </p>
+            </div>
             <br>
             <div id="projects">
                 <section>
-                    <h2 id="HG"><a href="./resources/pages/HG/HTML.html">My Help Guide</a></h2>
-                    <img src="./resources/resources/Help_Guide.png">
-                    <p>This webpage was one of my very first projects where the emphasis was to utilize basic HTML tables and CSS properties to make a help guide for basic HTML tags and CSS conepts for quick and
-                        easy reference.</p>
-                    <br>
-                    <p>Technologies that were used to make this page include: HTML, CSS, and Git</p>
+                    <h2 class="title" id="HG"><a href="./resources/pages/HG/HTML.html" >My Help Guide</a></h2>
+                    <img class="page" src="./resources/resources/Help_Guide.png">
+                    <p class="content">This webpage was one of my very first projects where the emphasis was to utilize basic HTML tables and CSS properties to make a help guide for basic HTML tags and CSS concepts for quick and
+                        easy reference. Technologies that were used to make this page include: HTML, CSS, and Git</p>
                 </section>
                 <section>
-                    <h2 id="BRB"><a href="./resources/pages/BRB/BRB.html">Blue Ridge Bakery</a></h2>
-                    <img src="./resources/resources/BRB.png">
-                    <p>The purpose of the Blue Ridge Bakery page was to use more advance CSS properties to make this webpage pop. More vibrant colors and visuals make this webpage a realistic use case for a business</p>
-                    <br>
-                    <p>Technologies that were used to make this page include: HTML, CSS, and Git</p>
+                    <h2 class="title" id="BRB"><a href="./resources/pages/BRB/BRB.html" >Blue Ridge Bakery</a></h2>
+                    <img class="page" src="./resources/resources/BRB.png">
+                    <p class="content">The purpose of the Blue Ridge Bakery page was to use more advanced CSS properties to make this webpage for visually appealing. More vibrant colors and visuals make this webpage a realistic use case for a business.
+                    Technologies that were used to make this page include: HTML, CSS, and Git</p>
                 </section>
                 <section>
-                    <h2 id="HBC"><a href="./resources/pages/HBC/HB.html">Hendersonville Bird Club</a></h2>
-                    <img src="./resources/resources/Birding.png">
-                    <p>The Hendersonville Bird Club page emphasized a webpage's ability to responsively change based on the device being used, although not perfect, it does respond to some changes in formatting.</p>
-                    <br>
-                    <p>Technologies that were used to make this page include: HTML, CSS, and Git</p>
+                    <h2 class="title" id="HBC"><a href="./resources/pages/HBC/HB.html" >Hendersonville Bird Club</a></h2>
+                    <img class="page" src="./resources/resources/Birding.png">
+                    <p class="content">The Hendersonville Bird Club page emphasized a webpage's ability to responsively change based on the device being used, although not perfect, it does respond to some changes in formatting.
+                    Technologies that were used to make this page include: HTML, CSS, and Git</p>
                 </section>
             </div>
         </main>
         <footer>
             <h2 id="ski">Skills</h2>
-            <p id="tech">View</p>
+            <p id="tech"></p>
                 <div id="techs">
-                    <img src="./resources/resources/HTML.png">
-                    <img src="./resources/resources/CSS.png">
-                    <img src="./resources/resources/JS.png">
-                    <img src="./resources/resources/git.jpg">
-                    <img src="./resources/resources/github.png">
-                    <img src="./resources/resources/Python.png">
-                    <img src="./resources/resources/SQL.png">
+                    <img class="img" src="./resources/resources/HTML.png">
+                    <img class="img" src="./resources/resources/CSS.png">
+                    <img class="img" src="./resources/resources/JS.png">
+                    <img class="img" src="./resources/resources/git.jpg">
+                    <img class="img" src="./resources/resources/github.png">
+                    <img class="img" src="./resources/resources/Python.png">
+                    <img class="img" src="./resources/resources/SQL.png">
                 </div>
             <p id="cloz">Close</p>
         </footer>
