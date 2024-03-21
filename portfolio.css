@@ -10,6 +10,12 @@
     justify-items: center;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
 /*heading and nav*/
 
 header {
@@ -110,6 +116,8 @@ main {
     background-color: #c0c0c0;
     margin: 0 0;
     padding: 0 0;
+    display: block;
+    text-align: center;
 }
 
 .title {
@@ -132,6 +140,7 @@ main {
     padding-bottom: 1.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    justify-self: center;
 }
 
 
@@ -140,6 +149,7 @@ main {
 footer{
     padding-top: 2rem;
     padding-bottom: 6rem;
+    margin: 0 0;
 }
 
 footer h2{
@@ -157,6 +167,9 @@ footer h2{
 
 #techs {
     font-size: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #tech:hover{
@@ -169,4 +182,13 @@ footer h2{
 
 #cloz:hover{
     cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+    .img {
+        width: 85%
+    }
 }
